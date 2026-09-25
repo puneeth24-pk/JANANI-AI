@@ -75,6 +75,20 @@ export default function App() {
               </View>
             )}
 
+            {/* Download APK Button */}
+            <TouchableOpacity
+              style={styles.downloadAppBtn}
+              onPress={() => {
+                if (typeof window !== 'undefined') {
+                  window.location.href = '/api/download/apk';
+                }
+              }}
+              activeOpacity={0.8}
+            >
+              <Text style={{ fontSize: 12, marginRight: 4 }}>📲</Text>
+              <Text style={styles.downloadAppBtnText}>Download APK</Text>
+            </TouchableOpacity>
+
             {/* Teacher Profile */}
             {!isMobile && (
               <View style={styles.teacherProfilePill}>
@@ -482,6 +496,21 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: '700',
     color: '#334155',
+  },
+  downloadAppBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#eff6ff',
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: '#bfdbfe',
+  },
+  downloadAppBtnText: {
+    fontSize: 11,
+    fontWeight: '800',
+    color: '#1d4ed8',
   },
   teacherProfilePill: {
     flexDirection: 'row',
