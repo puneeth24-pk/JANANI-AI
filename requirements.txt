@@ -1,0 +1,25 @@
+# JANANI AI — Python Backend Requirements
+# Install with: pip install -r requirements.txt
+
+# Web framework
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+python-multipart==0.0.32
+python-dotenv==1.2.3
+starlette==1.6.0
+pydantic==2.13.5
+
+# AI / ML
+torch==2.14.0
+torchaudio==2.11.0
+transformers==4.40.2
+openai-whisper==20250625
+
+# Audio processing
+soundfile==0.14.0
+scipy==1.18.1
+numpy==2.5.2
+
+# IndicTrans2 toolkit (install separately from source)
+# git clone https://github.com/AI4Bharat/IndicTransToolkit
+# cd IndicTransToolkit && pip install -e .

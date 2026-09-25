@@ -1,0 +1,686 @@
+{
+  "language_data": {
+    "ho": {
+      "language_name": "Ho",
+      "script": "Devanagari",
+      "vocabulary": [
+        {
+          "script": "अंज",
+          "transliteration": "Anj",
+          "hindi": "मैं",
+          "english": "I"
+        },
+        {
+          "script": "अम",
+          "transliteration": "Am",
+          "hindi": "तुम",
+          "english": "You"
+        },
+        {
+          "script": "आकु",
+          "transliteration": "Aku",
+          "hindi": "वे",
+          "english": "They"
+        },
+        {
+          "script": "ओड़ाः",
+          "transliteration": "Ora'",
+          "hindi": "घर",
+          "english": "House"
+        },
+        {
+          "script": "दाः",
+          "transliteration": "Da'",
+          "hindi": "पानी",
+          "english": "Water"
+        },
+        {
+          "script": "जोम",
+          "transliteration": "Jom",
+          "hindi": "खाना",
+          "english": "Eat"
+        },
+        {
+          "script": "नू",
+          "transliteration": "Nu",
+          "hindi": "पीना",
+          "english": "Drink"
+        },
+        {
+          "script": "सेनोः",
+          "transliteration": "Seno'",
+          "hindi": "जाना",
+          "english": "Go"
+        },
+        {
+          "script": "उजूः",
+          "transliteration": "Uju'",
+          "hindi": "आना",
+          "english": "Come"
+        },
+        {
+          "script": "दारू",
+          "transliteration": "Daru",
+          "hindi": "पेड़",
+          "english": "Tree"
+        },
+        {
+          "script": "सिंगी",
+          "transliteration": "Singi",
+          "hindi": "सूरज",
+          "english": "Sun"
+        },
+        {
+          "script": "सिरमा",
+          "transliteration": "Sirma",
+          "hindi": "आसमान",
+          "english": "Sky"
+        },
+        {
+          "script": "अराः",
+          "transliteration": "Ara'",
+          "hindi": "लाल",
+          "english": "Red"
+        },
+        {
+          "script": "सासाम",
+          "transliteration": "Sasam",
+          "hindi": "पीला",
+          "english": "Yellow"
+        },
+        {
+          "script": "हरीआर",
+          "transliteration": "Hariar",
+          "hindi": "हरा",
+          "english": "Green"
+        },
+        {
+          "script": "नीला",
+          "transliteration": "Neela",
+          "hindi": "नीला",
+          "english": "Blue"
+        },
+        {
+          "script": "करिया",
+          "transliteration": "Kariya",
+          "hindi": "काला",
+          "english": "Black"
+        },
+        {
+          "script": "पुंडी",
+          "transliteration": "Pundi",
+          "hindi": "सफ़ेद",
+          "english": "White"
+        },
+        {
+          "script": "सेता",
+          "transliteration": "Seta",
+          "hindi": "कुत्ता",
+          "english": "Dog"
+        },
+        {
+          "script": "पुसी",
+          "transliteration": "Pusi",
+          "hindi": "बिल्ली",
+          "english": "Cat"
+        },
+        {
+          "script": "सदोम",
+          "transliteration": "Sadom",
+          "hindi": "घोड़ा",
+          "english": "Horse"
+        },
+        {
+          "script": "सुकुरी",
+          "transliteration": "Sukuri",
+          "hindi": "सूअर",
+          "english": "Pig"
+        },
+        {
+          "script": "गाइ",
+          "transliteration": "Gai",
+          "hindi": "गाय",
+          "english": "Cow"
+        },
+        {
+          "script": "सिम",
+          "transliteration": "Sim",
+          "hindi": "मुर्गी",
+          "english": "Hen"
+        },
+        {
+          "script": "हाकु",
+          "transliteration": "Haku",
+          "hindi": "मछली",
+          "english": "Fish"
+        },
+        {
+          "script": "चेंड़ो",
+          "transliteration": "Chenro",
+          "hindi": "चिड़िया",
+          "english": "Bird"
+        },
+        {
+          "script": "अपु",
+          "transliteration": "Apu",
+          "hindi": "पिता",
+          "english": "Father"
+        },
+        {
+          "script": "इंगा",
+          "transliteration": "Inga",
+          "hindi": "माता",
+          "english": "Mother"
+        },
+        {
+          "script": "बाबु",
+          "transliteration": "Babu",
+          "hindi": "लड़का / भाई",
+          "english": "Boy / Brother"
+        },
+        {
+          "script": "माई",
+          "transliteration": "Mai",
+          "hindi": "लड़की / बहन",
+          "english": "Girl / Sister"
+        },
+        {
+          "script": "जागा",
+          "transliteration": "Jaga",
+          "hindi": "पैर",
+          "english": "Leg"
+        },
+        {
+          "script": "तीः",
+          "transliteration": "Ti'",
+          "hindi": "हाथ",
+          "english": "Hand"
+        },
+        {
+          "script": "मेद",
+          "transliteration": "Med",
+          "hindi": "आँख",
+          "english": "Eye"
+        },
+        {
+          "script": "लुतुर",
+          "transliteration": "Lutur",
+          "hindi": "कान",
+          "english": "Ear"
+        },
+        {
+          "script": "मुअ",
+          "transliteration": "Mua",
+          "hindi": "नाक",
+          "english": "Nose"
+        },
+        {
+          "script": "किताब",
+          "transliteration": "Kitab",
+          "hindi": "किताब",
+          "english": "Book"
+        },
+        {
+          "script": "कलम",
+          "transliteration": "Kalam",
+          "hindi": "कलम",
+          "english": "Pen"
+        },
+        {
+          "script": "इतुन ओड़ाः",
+          "transliteration": "Itun ora'",
+          "hindi": "स्कूल",
+          "english": "School"
+        },
+        {
+          "script": "अचिर",
+          "transliteration": "Achir",
+          "hindi": "शिक्षक",
+          "english": "Teacher"
+        },
+        {
+          "script": "चाडू",
+          "transliteration": "Chadu",
+          "hindi": "चाँद",
+          "english": "Moon"
+        }
+      ],
+      "numbers": [
+        {
+          "value": 0,
+          "script": "शुन्य",
+          "transliteration": "Shunya"
+        },
+        {
+          "value": 1,
+          "script": "मियद",
+          "transliteration": "Miyad"
+        },
+        {
+          "value": 2,
+          "script": "बारिया",
+          "transliteration": "Baria"
+        },
+        {
+          "value": 3,
+          "script": "अपैया",
+          "transliteration": "Apeya"
+        },
+        {
+          "value": 4,
+          "script": "उपुन्या",
+          "transliteration": "Upunya"
+        },
+        {
+          "value": 5,
+          "script": "मोन्या",
+          "transliteration": "Monya"
+        },
+        {
+          "value": 6,
+          "script": "तूरूआ",
+          "transliteration": "Turua"
+        },
+        {
+          "value": 7,
+          "script": "एया",
+          "transliteration": "Eya"
+        },
+        {
+          "value": 8,
+          "script": "ईरिल्या",
+          "transliteration": "Irilya"
+        },
+        {
+          "value": 9,
+          "script": "अरेआ",
+          "transliteration": "Area"
+        },
+        {
+          "value": 10,
+          "script": "गेलेया",
+          "transliteration": "Geleya"
+        },
+        {
+          "value": 20,
+          "script": "हिसी",
+          "transliteration": "Hisi"
+        },
+        {
+          "value": 40,
+          "script": "बर हिसी",
+          "transliteration": "Bar hisi"
+        },
+        {
+          "value": 60,
+          "script": "अपैया हिसी",
+          "transliteration": "Apeya hisi"
+        },
+        {
+          "value": 80,
+          "script": "उपुन्या हिसी",
+          "transliteration": "Upunya hisi"
+        },
+        {
+          "value": 100,
+          "script": "मोन्या हिसी",
+          "transliteration": "Monya hisi"
+        }
+      ],
+      "simple_sentences": [
+        {
+          "script": "सेबो अराः गेआ।",
+          "transliteration": "Sebo ara' gea.",
+          "hindi": "सेब लाल है।",
+          "english": "Apple is red."
+        },
+        {
+          "script": "उल सासाम गेआ।",
+          "transliteration": "Ul sasam gea.",
+          "hindi": "आम पीला है।",
+          "english": "Mango is yellow."
+        },
+        {
+          "script": "सिरमा नीला गेआ।",
+          "transliteration": "Sirma neela gea.",
+          "hindi": "आसमान नीला है।",
+          "english": "The sky is blue."
+        },
+        {
+          "script": "सेता हुडिंग गेआ।",
+          "transliteration": "Seta huding gea.",
+          "hindi": "कुत्ता छोटा है।",
+          "english": "The dog is small."
+        },
+        {
+          "script": "दारू मरांग गेआ।",
+          "transliteration": "Daru marang gea.",
+          "hindi": "पेड़ बड़ा है।",
+          "english": "The tree is big."
+        },
+        {
+          "script": "नेना किताब ताना।",
+          "transliteration": "Nena kitab tana.",
+          "hindi": "यह एक किताब है।",
+          "english": "This is a book."
+        },
+        {
+          "script": "नेना कलम ताना।",
+          "transliteration": "Nena kalam tana.",
+          "hindi": "यह एक कलम है।",
+          "english": "This is a pen."
+        },
+        {
+          "script": "गाइ तोआ एमेआ।",
+          "transliteration": "Gai toa emea.",
+          "hindi": "गाय दूध देती है।",
+          "english": "The cow gives milk."
+        },
+        {
+          "script": "अंज मंडी जमतानां ज।",
+          "transliteration": "Anj mandi jomtananj.",
+          "hindi": "मैं खाना खा रहा हूँ।",
+          "english": "I am eating food."
+        },
+        {
+          "script": "अंज इतुन ओड़ाः सेनोतानां ज।",
+          "transliteration": "Anj itun ora' senotananj.",
+          "hindi": "मैं स्कूल जा रहा हूँ।",
+          "english": "I am going to school."
+        }
+      ],
+      "questions_answers": [
+        {
+          "script": "अमाः नुतुम चिकना ताना?",
+          "transliteration": "Ama' nutum chikna tana?",
+          "hindi": "तुम्हारा नाम क्या है?",
+          "english": "What is your name?"
+        },
+        {
+          "script": "अंआः नुतुम राम ताना।",
+          "transliteration": "Ainga' nutum Ram tana.",
+          "hindi": "मेरा नाम राम है।",
+          "english": "My name is Ram."
+        },
+        {
+          "script": "अम ओकोइ तानम?",
+          "transliteration": "Am okoi tanam?",
+          "hindi": "तुम कौन हो?",
+          "english": "Who are you?"
+        },
+        {
+          "script": "अं मियद होन तानां ज।",
+          "transliteration": "Ang miyad hon tananj.",
+          "hindi": "मैं एक बच्चा हूँ।",
+          "english": "I am a child."
+        },
+        {
+          "script": "अम ओकोतेम सेनोःताना?",
+          "transliteration": "Am okotem seno'tana?",
+          "hindi": "तुम कहाँ जा रहे हो?",
+          "english": "Where are you going?"
+        },
+        {
+          "script": "अं इतुन ओड़ाः सेनोतानां ज।",
+          "transliteration": "Ang itun ora' senotananj.",
+          "hindi": "मैं स्कूल जा रहा हूँ।",
+          "english": "I am going to school."
+        },
+        {
+          "script": "नेना चिकना ताना?",
+          "transliteration": "Nena chikna tana?",
+          "hindi": "यह क्या है?",
+          "english": "What is this?"
+        },
+        {
+          "script": "नेना किताब ताना।",
+          "transliteration": "Nena kitab tana.",
+          "hindi": "यह एक किताब है।",
+          "english": "This is a book."
+        },
+        {
+          "script": "अम मंडीम जमताना ची?",
+          "transliteration": "Am mandim jomtana chi?",
+          "hindi": "क्या तुम खाना खा रहे हो?",
+          "english": "Are you eating food?"
+        },
+        {
+          "script": "हें, अं मंडी जमतानां ज।",
+          "transliteration": "Hen, anj mandi jomtananj.",
+          "hindi": "हाँ, मैं खाना खा रहा हूँ।",
+          "english": "Yes, I am eating food."
+        }
+      ],
+      "classroom_instructions": [
+        {
+          "script": "दुबमे।",
+          "transliteration": "Dub-me.",
+          "hindi": "बैठ जाओ।",
+          "english": "Sit down."
+        },
+        {
+          "script": "तिंगुमे।",
+          "transliteration": "Tingu-me.",
+          "hindi": "खड़े हो जाओ।",
+          "english": "Stand up."
+        },
+        {
+          "script": "नेपाः उजूःमे।",
+          "transliteration": "Nepa' uju'-me.",
+          "hindi": "यहाँ आओ।",
+          "english": "Come here."
+        },
+        {
+          "script": "हन्पाः सेनमे।",
+          "transliteration": "Hanpa' sen-me.",
+          "hindi": "वहाँ जाओ।",
+          "english": "Go there."
+        },
+        {
+          "script": "किताब ओलमे।",
+          "transliteration": "Kitab ol-me.",
+          "hindi": "किताब में लिखो।",
+          "english": "Write in the book."
+        },
+        {
+          "script": "बुगिनते पढाओमे।",
+          "transliteration": "Buginte padhao-me.",
+          "hindi": "सही से पढ़ो।",
+          "english": "Read properly."
+        },
+        {
+          "script": "काकु जगरमे।",
+          "transliteration": "Kaku jagar-me.",
+          "hindi": "बात मत करो।",
+          "english": "Do not talk."
+        },
+        {
+          "script": "तीः राकावमे।",
+          "transliteration": "Ti' rakaw-me.",
+          "hindi": "अपना हाथ उठाओ।",
+          "english": "Raise your hand."
+        },
+        {
+          "script": "आयममे।",
+          "transliteration": "Ayam-me.",
+          "hindi": "सुनो।",
+          "english": "Listen."
+        },
+        {
+          "script": "साफायमे।",
+          "transliteration": "Saphay-me.",
+          "hindi": "इसे साफ करो।",
+          "english": "Clean it."
+        },
+        {
+          "script": "दाः नूमे।",
+          "transliteration": "Da' nu-me.",
+          "hindi": "पानी पीयो।",
+          "english": "Drink water."
+        },
+        {
+          "script": "मंडी जमे।",
+          "transliteration": "Mandi jom-me.",
+          "hindi": "खाना खाओ।",
+          "english": "Eat food."
+        }
+      ],
+      "social_language": [
+        {
+          "script": "आम जोआर।",
+          "transliteration": "Aam johar.",
+          "hindi": "नमस्ते।",
+          "english": "Hello / Greetings."
+        },
+        {
+          "script": "मियद बुगिन हिं सिंग।",
+          "transliteration": "Miyad bugin hin sing.",
+          "hindi": "सुप्रभात।",
+          "english": "Good morning."
+        },
+        {
+          "script": "सुकूते सेनोःमे।",
+          "transliteration": "Sukute seno'-me.",
+          "hindi": "सुरक्षित जाओ।",
+          "english": "Go safely / Goodbye."
+        },
+        {
+          "script": "मरांग को जोआर।",
+          "transliteration": "Marang ko johar.",
+          "hindi": "बड़ों को प्रणाम।",
+          "english": "Respectful greetings to elders."
+        },
+        {
+          "script": "हें।",
+          "transliteration": "Hen.",
+          "hindi": "हाँ।",
+          "english": "Yes."
+        },
+        {
+          "script": "काअ।",
+          "transliteration": "Kaa.",
+          "hindi": "नहीं।",
+          "english": "No."
+        },
+        {
+          "script": "मरांग ओड़ाः।",
+          "transliteration": "Marang ora'.",
+          "hindi": "बड़ा घर।",
+          "english": "Big house."
+        },
+        {
+          "script": "अम चिकनाते मेनाम?",
+          "transliteration": "Am chiknate menam?",
+          "hindi": "तुम कैसे हो?",
+          "english": "How are you?"
+        },
+        {
+          "script": "अं बुगिनते मेनां ज।",
+          "transliteration": "Ang buginte menanj.",
+          "hindi": "मैं ठीक हूँ।",
+          "english": "I am fine."
+        },
+        {
+          "script": "सुखू गेआं ज।",
+          "transliteration": "Sukhu geanj.",
+          "hindi": "मैं खुश हूँ।",
+          "english": "I am happy."
+        }
+      ],
+      "body_parts": [
+        {
+          "script": "बोः",
+          "transliteration": "Bo'",
+          "hindi": "सिर",
+          "english": "Head"
+        },
+        {
+          "script": "उब",
+          "transliteration": "Ub",
+          "hindi": "बाल",
+          "english": "Hair"
+        },
+        {
+          "script": "मुअ",
+          "transliteration": "Mua",
+          "hindi": "नाक",
+          "english": "Nose"
+        },
+        {
+          "script": "मेद",
+          "transliteration": "Med",
+          "hindi": "आँख",
+          "english": "Eye"
+        },
+        {
+          "script": "लुतुर",
+          "transliteration": "Lutur",
+          "hindi": "कान",
+          "english": "Ear"
+        },
+        {
+          "script": "मोचा",
+          "transliteration": "Mocha",
+          "hindi": "मुँह",
+          "english": "Mouth"
+        },
+        {
+          "script": "डाटा",
+          "transliteration": "Data",
+          "hindi": "दाँत",
+          "english": "Tooth"
+        },
+        {
+          "script": "तीः",
+          "transliteration": "Ti'",
+          "hindi": "हाथ",
+          "english": "Hand"
+        },
+        {
+          "script": "जागा",
+          "transliteration": "Jaga",
+          "hindi": "पैर",
+          "english": "Leg"
+        },
+        {
+          "script": "लाइः",
+          "transliteration": "Lai'",
+          "hindi": "पेट",
+          "english": "Stomach"
+        }
+      ]
+    }
+  },
+  "system_mapping": {
+    "supported_input_languages": [
+      "hindi",
+      "english",
+      "ho"
+    ],
+    "target_language": "ho",
+    "target_script": "Devanagari",
+    "input_modes": [
+      "text",
+      "voice"
+    ],
+    "output_modes": [
+      "text",
+      "voice"
+    ],
+    "pipeline": [
+      "input_text_or_voice",
+      "language_detection",
+      "speech_to_text_if_voice",
+      "semantic_mapping",
+      "ho_translation",
+      "devanagari_rendering",
+      "ho_pronunciation_mapping",
+      "text_to_speech"
+    ],
+    "fallback_policy": {
+      "unknown_word": "mark_for_review",
+      "unknown_sentence": "do_not_invent_translation",
+      "tts_without_native_ho_model": "use_pronunciation_transliteration_fallback"
+    }
+  }
+}

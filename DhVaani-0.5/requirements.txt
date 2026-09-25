@@ -1,0 +1,19 @@
+# DhVaani inference dependencies.
+# Install torch/torchaudio for your machine FIRST, e.g.:
+#   GPU:  pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
+#   CPU:  pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+# then:  pip install -r requirements.txt
+
+transformers>=4.40,<5     # for the AutoModel API (5.x meta-init not yet supported)
+torch
+torchaudio
+numpy
+soundfile
+safetensors
+einops
+vocos                     # 24 kHz mel vocoder
+huggingface_hub           # downloads the vocoder on first run
+
+# OPTIONAL — k2 replaces a PyTorch Swoosh fallback (a bit faster / less memory).
+# Not needed for correctness. Match torch/cuda, e.g. for torch 2.8.0 + cu128:
+#   pip install "k2==1.24.4.dev20260625+cuda12.8.torch2.8.0" -f https://k2-fsa.github.io/k2/cuda.html

@@ -1,0 +1,110 @@
+# ============================================================
+# JANANI AI — .gitignore
+# ============================================================
+
+# ── Embedded git repos (not submodules) ─────────────────────
+DhVaani-ONNX/
+whisper.cpp/
+mundari/data/dataset-hindi-mundari-translation/
+
+# ── Python ──────────────────────────────────────────────────
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Environment / Secrets ───────────────────────────────────
+.env
+.env.local
+*.key
+*.pem
+
+# ── AI Model Weights (too large for GitHub) ─────────────────
+# Download instructions in README — models sourced from:
+# https://github.com/puneeth24-pk/QUANTIZE8_INDICTRANS2/releases/tag/v1.0.0
+indictrans2-int8/*.pth
+indictrans2-int8/*.bin
+models/indictrans2/*.safetensors
+models/indictrans2/*.bin
+DhVaani-0.5/model.safetensors
+DhVaani-0.5/model.pt
+DhVaani-0.5/.cache/
+
+# Keep config/tokenizer files (small, needed for setup)
+!models/indictrans2/config.json
+!models/indictrans2/tokenizer*
+!models/indictrans2/special_tokens*
+!models/indictrans2/sentencepiece*
+!models/indictrans2/*.json
+!indictrans2-int8/kairos_model/
+!indictrans2-int8/model_info.txt
+
+# ── Generated Outputs ────────────────────────────────────────
+outputs/
+lesson_audio/
+uploads/
+generated/
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# ── Node.js / React Native ───────────────────────────────────
+node_modules/
+frontend/janani/node_modules/
+frontend/janani/.expo/
+frontend/janani/dist/
+frontend/janani/web-build/
+frontend/janani/.expo-shared/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Android Build ────────────────────────────────────────────
+frontend/janani/android/.gradle/
+frontend/janani/android/app/build/
+frontend/janani/android/build/
+frontend/janani/android/local.properties
+*.apk
+*.aab
+*.keystore
+!debug.keystore
+
+# ── iOS ──────────────────────────────────────────────────────
+frontend/janani/ios/build/
+frontend/janani/ios/Pods/
+frontend/janani/ios/*.xcworkspace
+frontend/janani/ios/*.xcuserdata
+
+# ── macOS ────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# ── IDE ──────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── Whisper.cpp (compiled, not needed) ───────────────────────
+whisper.cpp/build/
+whisper.cpp/models/*.bin
+whisper.cpp/samples/
+
+# ── Temp / Scratch ───────────────────────────────────────────
+*.tmp
+*.bak
+recordings/
