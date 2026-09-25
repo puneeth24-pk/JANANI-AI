@@ -1629,6 +1629,35 @@ def api_save_history(record: dict):
 
 
 # ============================================================
+# APK DOWNLOAD & WEB APP STATIC SERVING
+# ============================================================
+
+@app.get("/api/download/apk")
+async def download_apk():
+    """Download the compiled Android APK directly."""
+    release_apk = BASE_DIR / "frontend" / "janani" / "android" / "app" / "build" / "outputs" / "apk" / "release" / "app-release.apk"
+    debug_apk = BASE_DIR / "frontend" / "janani" / "android" / "app" / "build" / "outputs" / "apk" / "debug" / "app-debug.apk"
+    
+    target_apk = release_apk if release_apk.exists() else (debug_apk if debug_apk.exists() else None)
+    if not target_apk:
+        raise HTTPException(
+            status_code=404, 
+            detail="APK is not yet compiled. Run './gradlew assembleDebug' or './gradlew assembleRelease' in frontend/janani/android"
+        )
+    
+    return FileResponse(
+        str(target_apk),
+        media_type="application/vnd.android.package-archive",
+        filename="janani-ai.apk"
+    )
+
+
+FRONTEND_DIST = BASE_DIR / "frontend" / "janani" / "dist"
+if FRONTEND_DIST.exists():
+    app.mount("/", StaticFiles(directory=str(FRONTEND_DIST), html=True), name="frontend")
+
+
+# ============================================================
 # ENTRY POINT
 # ============================================================
 
